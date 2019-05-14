@@ -1,0 +1,7 @@
+file=open('be.txt',"r")
+for str in file:
+    try:
+        exec(str)
+        print("True")
+    except:
+        print("False")
